@@ -1,0 +1,26 @@
+UML Diagram
+
+___________________________________________________________________
+rectangle2d
+____________________________________________________________________
+-x:double
+-y:double
+-height:double
+-width:double
+____________________________________________________________________
++rectangle2d
++rectangle2d(x2:double,y2:double,height2:double,width2:double)
++getx():double const
++setx(x2:double)
++gety():double const
++sety():double const
++getwidth():double const
++setwidth():double const
++getheight():double const
++setheight():double const
++getarea()double const
++getperimeter()double const
++contains(x:double,y:double) bool
++contains(rectangle2d &r const) bool
++overlaps(rectangle2d &r) bool
+____________________________________________________________________
